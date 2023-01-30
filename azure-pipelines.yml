@@ -19,10 +19,9 @@ steps:
   displayName: 'Run a multi-line script'
 - task: SnykSecurityScan@1
   inputs:
-      serviceConnectionEndpoint: 'sekharreddy04631'
-      testType: 'app'
-      monitorWhen: 'always'
-      failOnIssues: false
-      projectName: 'sekharreddy0463'
-      organization: 'sekharreddy0463'
-    
+    serviceConnectionEndpoint: 'SNYK'
+    testType: 'app'
+    monitorWhen: 'always'
+    failOnIssues: false
+    projectName: 'Shikshitha'
+    organization: 'Shikshitha'
