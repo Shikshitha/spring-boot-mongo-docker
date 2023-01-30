@@ -19,7 +19,7 @@ steps:
     monitorWhen: 'always'
     failOnIssues: false
     projectName: 'Shikshitha'
-    organization: 'Shikshitha'
+    organization: 'shikshitha'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
