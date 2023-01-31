@@ -24,3 +24,8 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: PublishPipelineArtifact@1
+  inputs:
+   targetPath: $(System.DefaultWorkingDirectory)/snyk_results.html
+   artifactName: scan_results 
+  continueOnError: true
