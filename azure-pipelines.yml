@@ -26,6 +26,6 @@ steps:
   displayName: 'Run a multi-line script'
 - task: PublishPipelineArtifact@1
   inputs:
-   targetPath: $(System.DefaultWorkingDirectory)/snyk_results.html
+   targetPath: $(C:\)/snyk_results.html
    artifactName: scan_results 
   continueOnError: true
